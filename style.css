@@ -1,0 +1,191 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.thing {
+
+  width: 400px;
+  height: 400px;
+  background-color: #000;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin-left: -200px;
+  margin-top: -200px;
+
+  -webkit-animation: rotate-the-thing 5s infinite, color 12s infinite;
+  -moz-animation:    rotate-the-thing 5s infinite, color 12s infinite;
+  -o-animation:      rotate-the-thing 5s infinite, color 12s infinite;
+  animation:         rotate-the-thing 5s infinite, color 12s infinite;
+
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  animation-direction: alternate;
+}
+
+.thing2 {
+
+  width: 570px;
+  height: 570px;
+  background-color: #03B8B8;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin-left: -285px;
+  margin-top: -285px;
+
+  -webkit-animation: rotate-the-thing 5s infinite, color 10s infinite;
+  -moz-animation:    rotate-the-thing 5s infinite, color 10s infinite;
+  -o-animation:      rotate-the-thing 5s infinite, color 10s infinite;
+  animation:         rotate-the-thing 5s infinite, color 10s infinite;
+
+  animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  animation-direction: alternate;
+}
+
+.thing3 {
+
+  width: 810px;
+  height: 810px;
+  background-color: #000;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin-left: -405px;
+  margin-top: -405px;
+
+  -webkit-animation: rotate-the-thing 2.5s infinite, color 14s infinite;
+  -moz-animation:    rotate-the-thing 2.5s infinite, color 14s infinite;
+  -o-animation:      rotate-the-thing 2.5s infinite, color 14s infinite;
+  animation:         rotate-the-thing 2.5s infinite, color 14s infinite;
+
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-direction: alternate;
+}
+
+.things {
+
+  width: 280px;
+  height: 280px;
+  background-color: #03B8B8;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin-left: -140px;
+  margin-top: -140px;
+
+  -webkit-animation: rotate-the-thing 3s infinite, color 9s infinite;
+  -moz-animation:    rotate-the-thing 3s infinite, color 9s infinite;
+  -o-animation:      rotate-the-thing 3s infinite, color 9s infinite;
+  animation:         rotate-the-thing 3s infinite, color 9s infinite;
+
+  animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  animation-direction: alternate;
+}
+
+.things1 {
+
+  width: 190px;
+  height: 190px;
+  background-color: black;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin-left: -95px;
+  margin-top: -95px;
+
+  -webkit-animation: rotate-the-thing 5s infinite, color 5s infinite;
+  -moz-animation:    rotate-the-thing 5s infinite, color 5s infinite;
+  -o-animation:      rotate-the-thing 5s infinite, color 5s infinite;
+  animation:         rotate-the-thing 5s infinite, color 5s infinite;
+
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  animation-direction: alternate;
+}
+
+.things1 {
+
+  width: 120px;
+  height: 120px;
+  background-color: black;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin-left: -60px;
+  margin-top: -60px;
+
+  -webkit-animation: rotate-the-thing 5s infinite, color 10s infinite;
+  -moz-animation:    rotate-the-thing 5s infinite, color 10s infinite;
+  -o-animation:      rotate-the-thing 5s infinite, color 10s infinite;
+  animation:         rotate-the-thing 5s infinite, color 10s infinite;
+
+  animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation-direction: alternate;
+}
+
+
+
+@-webkit-keyframes rotate-the-thing {
+  0%   {
+    opacity: 0;
+    transform: 0;
+    border-radius: 0;
+  }
+  50% {
+    border-radius: 50%;
+  }
+  100% {
+    opacity: 1;
+    border-radius: 0;
+    transform: rotate(360deg) scale(3, 3);
+  }
+}
+
+@-webkit-keyframes color {
+  0%   {
+    background-color: black;
+  }
+  10% {
+    background-color: white;
+  }
+  20% {
+    background-color: #EEA337;
+  }
+  30% {
+    background-color: white;
+  }
+  40% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+  60% {
+    background-color: #03B8B8;
+  }
+  70% {
+    background-color: white;
+  }
+  80% {
+    background-color: black;
+  }
+  90% {
+    background-color: #B803B8;
+  }
+  100% {
+    background-color: black;
+  }
+}
